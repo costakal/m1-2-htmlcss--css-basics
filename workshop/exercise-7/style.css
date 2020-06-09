@@ -5,6 +5,7 @@ body,
 div,
 h1,
 h2,
+h3,
 p,
 ul,
 li {
@@ -16,4 +17,72 @@ li {
   vertical-align: baseline;
 }
 
-/* ADD CSS BELOW */
+body {
+  background-color: white;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Bangers', sans-serif;
+}
+
+h1 {
+  padding: 15px;
+  font-size: 48px;
+  text-align: center;
+}
+
+h2 {
+  text-align: left;
+  padding: 10px;
+  font-size: 24px;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+section{
+  margin: 10px;
+}
+
+.row-cute{
+  display: flex; 
+  list-style: none;
+  padding-left: 10px;
+}
+
+.row-big{
+  display: flex;
+  list-style: none;
+  padding-left: 10px;
+}
+
+.row-insects{
+  display: flex;
+  list-style: none;
+  padding-left: 10px;
+}
+
+.col {
+margin: 0 20px;
+border: grey;
+border-style: dashed;
+background-color: lightgrey;
+}
+
+img {
+  height: 180px;
+  width: auto;
+  margin: 5px;
+  padding: 10px;
+}
+
+.multiple-photos {
+  display: flex;
+  justify-content:space-between;
+  padding: 0 -5px 0 -5px
+}
