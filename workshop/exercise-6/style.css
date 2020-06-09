@@ -19,23 +19,40 @@ li {
 /* ADD CSS BELOW */
 
 body {
+  background-color: white;
 }
 
 h1,
 h2 {
+  font-family: 'Bangers', sans-serif;
 }
 
 h1 {
+  padding: 15px;
+  font-size: 30px;
+  text-align: center;
 }
 
 h2 {
+  text-align: center;
+  padding-top: 10px;
 }
 
 .row {
+  display: flex;
+  justify-content: center;
+  list-style: none;
 }
 
 .col {
+  margin: 0 20px;
+  border: grey;
+  border-style: dashed;
+  background-color: lightgrey;
+
 }
 
 .image {
+  max-height: 100px;
+  padding: 10px;
 }
